@@ -1,0 +1,15 @@
+import React from "react";
+
+function Navbar() {
+  return (
+<nav class="navbar navbar-expand-sm bg-light">
+        <div className = "container">
+          <div className = "navbar-header">
+            <h3>React Rebooted</h3>
+          </div>
+        </div>
+      </Navbar>
+  );
+}
+
+export default Navbar;
