@@ -1,6 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## This repo is just a quick tutorial on passing around props in multiple instances.  Bare basics. Nav bar does not work as intended
 
+This repo is just a quick tutorial on passing around props in multiple instances.  Bare basics. Nav bar does not work as intended
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Available Scripts
 
 In the project directory, you can run:
