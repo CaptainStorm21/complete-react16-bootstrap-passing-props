@@ -4,7 +4,7 @@ function ContainerCard(props) {
   return (
     <div className="col-md-4 col-lg-4 py-2">
     <div className="card">
-      <h5 className="card-header">Book Title: {props.title}</h5>
+      <h5 className="card-header">{props.title}</h5>
       <div className="card-body">
         <p className="card-text">{props.descripton}</p>
       </div>

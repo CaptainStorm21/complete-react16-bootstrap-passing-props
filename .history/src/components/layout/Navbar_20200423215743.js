@@ -2,7 +2,9 @@ import React from "react";
 import "./Nav.css";
 
 function Navbar(props) {
-
+  change (page){
+    this.props.change(page)
+  }
   return (
     <>
           <a className="navbar-brand" href="#"><h4>ReactRebooted</h4></a>

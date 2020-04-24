@@ -1,14 +1,14 @@
 import React from "react";
 
-function ContainerCard(props) {
+function ContainerCard() {
   return (
     <div className="col-md-4 col-lg-4 py-2">
     <div className="card">
-      <h5 className="card-header">Book Title: {props.title}</h5>
+      <h5 className="card-header">{this.props.title}</h5>
       <div className="card-body">
-        <p className="card-text">{props.descripton}</p>
+        <p className="card-text">{this.props.description}</p>
       </div>
-      <div className="card-footer">Author: {props.author}</div>
+      <div className="card-footer">Card footer</div>
     </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 
-function ContainerCard(props) {
+function About(props) {
   return (
     <div className="col-md-4 col-lg-4 py-2">
     <div className="card">
@@ -14,4 +14,4 @@ function ContainerCard(props) {
   );
 }
 
-export default ContainerCard;
+export default About;
